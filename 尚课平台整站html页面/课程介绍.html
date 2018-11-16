@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>课程详情_尚课平台</title>
+<meta name="keywords" content="尚课平台">
+<meta name="description" content="尚课平台">
+<meta name="author" content="山东商讯在线 http://www.sdsoon.com/">
+<link rel="stylesheet" href="css/qfbase.css">
+<!--尚课平台的共有样式-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/qlclass.pl.js"></script>
+<body>
+<!--web-top start-->
+<div class="w-all w-minw bd-sd-b hg-45">
+    <div class="w-main m-auto"> 
+        <!-- top left start-->
+        <div class="fl"> <span class="fs-12 line-h45 ftc-000000 dsblock fl">哈尔滨</span> <a href="城市.html" class="dsblock fl line-h45 fs-12 ftc-fc0503">[切换地图]</a> <a href="index.html" class="dsblock fl fs-12 ftc-000000 line-h45 m-l-70">首页</a> 
+            <!--top 导航 start-->
+            <div class="hover-topnav fl m-l-45">
+                <div class="dh_nav fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45"><i class="p-l-15 ql_icon dh_topnav hg-45 fl"></i>导航</span>
+                     <ul class="dh_nav_sub bg-c-ffffff bd-sd-b">
+                        <li> <a href="课程列表页面.html"><i class="ql_icon"></i>大一</a> </li>
+                        <li> <a href="课程列表页面.html"><i class="ql_icon"></i>大二</a> </li>
+                        <li> <a href="课程列表页面.html"><i class="ql_icon"></i>大三</a> </li>
+                        <li> <a href="课程列表页面.html"><i class="ql_icon"></i>大四</a> </li>
+                        <li> <a href=""><i class="ql_icon"></i>讲师</a> </li>
+                        <li> <a href=""><i class="ql_icon"></i>云课</a> </li>
+                        <li> <a href=""><i class="ql_icon"></i>测试</a> </li>
+                        <li> <a href=""><i class="ql_icon"></i>资讯</a> </li>
+                        <li> <a href=""><i class="ql_icon"></i>联系我们</a> </li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+            </div>
+            <!--top 导航 end--> 
+            <!--top wap start-->
+            <div class="hover-topnav fl m-l-45">
+                <div class="dh_nav fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45"><i class="p-l-15 ql_icon top_wapewem hg-45 fl"></i>手机端</span>
+                    <div class="top_wap_ewem bg-c-ffffff bd-sd-b"> <img src="pics/wap.png" width="100" alt=""/>
+                        <p class="w-all fs-13 text-c line-h25">扫描二维码</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- top left end--> 
+        <!-- top right start-->
+        <div class="fr"> 
+            <!--登录注册 start-->
+            <div class="fl"> <a class="fs-12 ftc-000000 line-h45" href="#"><i class="p-l-20 ql_icon login_icon hg-45 fl m-r-10"></i>请登录</a> <span class="fs-12 ftc-000000 line-h45 m-l-15 m-r-15">|</span> <a class="fs-12 ftc-000000 line-h45" href="#">注册</a> </div>
+            <!--登录注册 end--> 
+            <!--我的购物车 start-->
+            <div class="fl m-l-30" id="hd-my-cart">
+                <div class="my-cart"> <i class="p-l-25 ql_icon cart_icon hg-45 fl m-r-10"><em>0</em></i>
+                    <p class="fl fs-12 ftc-000000 line-h45">我的购物车</p>
+                </div>
+            </div>
+            <!--我的购物车 end--> 
+            <!--top 客服中心 start-->
+            <div class="hover-topkf fl m-l-45">
+                <div class="top_kf fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45">客服中心<i class="p-l-10 m-l-10 ql_icon top_kficon hg-45 fr"></i></span>
+                    <ul class="top_kf_list bg-c-ffffff bd-sd-b">
+                        <li> <a href="#"><i class="ql_icon"></i>联系电话：0531-81768062</a> </li>
+                        <li> <a href="#"><i class="ql_icon"></i>联系电话：0531-81768062</a> </li>
+                        <li> <a href="#"><i class="ql_icon"></i>邮箱：1563891871@qq.com</a> </li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+            </div>
+            <!--top 客服中心 start--> 
+        </div>
+        <!-- top right end--> 
+    </div>
+</div>
+<!--web-top end-->
+<div class="clear"></div>
+<!--web logo and search start-->
+<div class="w-main m-auto m-t-37 m-b-25 ovhidden"> 
+    <!--web logo start--> 
+    <a href="index.html" class="logo fl"><img src="pics/shangke1.PNG" width="240" height="70" alt=""/></a> 
+    <!--web logo end--> 
+    <!--web search start-->
+    <div class="search w-540 m-l-115 m-t-15 fl">
+        <form action="#" method="get" id="searchform" name="searchform" onSubmit="return checkSearchForm()" class="w-540 search-form">
+            <input class="p-l-15 bd-2s-e9511b w-435 line-h35 hg-35 fs-12 ftc-a9a9a9 fl" type="text" name="keywords" id="keyword" value="搜索：大学课程" onfocus="if(this.value == '搜索：大学课程')this.value = ''" onblur="if(this.value == '')this.value='搜索：大学课程'" autocomplete="off">
+            <input type="hidden" value="k1" name="dataBi">
+            <button type="submit" class="w-85 line-h39 hg-39 fs-16 ftc-ffffff bg-c-e9511b fl">提交</button>
+        </form>
+        <div class="w-540 fl" id="hotkeywords"> <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20"></a> <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20"></a> <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20"></a> <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20"></a> <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20"></a>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!--web search end-->
+    <div class="fr"> <img src="pics/dianhua.PNG" width="199" height="70" alt=""/> </div>
+</div>
+<!--web logo and search end--> 
+<!--网站导航 start-->
+<div class="w-all w-minw hg-60 bd-bs-e9511b bg-c-ffffff ql_webnav"> 
+    <!--网站导航 start-->
+    <div class="w-main m-auto ps-r hg-60"> 
+        <!--全部商品分类-->
+        <div class="hc_lnav jslist">
+            <div class="allbtn">
+                <h2><a href="#">全部课程分类</a></h2>
+                <ul style="width:250px" class="jspop box">
+                    <!--导航-->
+                    <li class="a1">
+                        <div class="tx"><a href="#">大一课程</a> </div>
+                        <dl>
+                            <dd> <a href="#">高等数学</a><a href="#">|多媒体技术</a><a href="#">计算机程序设计</a> <a href="#">|大学计算机导论</a> <a href="#">C++程序设计</a><a href="#">|电路基础</a> <a href="#">特色课程</a> </dd>
+                        </dl>
+                        <div class="pop">
+                            <dl>
+                                <dt><a href="#">大一 ></a></dt>
+                                <dd> <a class="ui-link" href="#">高数上</a><span>|</span> <a class="ui-link" href="#">多媒体技术</a><span>|</span> <a class="ui-link" href="#">计算机程序设计</a><span>|</span> <a class="ui-link" href="#">大学计算机导论</a><span>|</span> <a class="ui-link" href="#">C++程序设计</a> <a class="ui-link" href="#">电路基础</a><span>|</span> <a class="ui-link" href="#">英语一级</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大二 ></a></dt>
+                                <dd> <a class="ui-link" href="#">高数下</a><span>|</span> <a class="ui-link" href="#">创新教育</a><span>|</span> <a class="ui-link" href="#">电路基础</a><span>|</span> <a class="ui-link" href="#">英语二级</a><span>|</span> <a class="ui-link" href="#">大学物理(上）</a> <a class="ui-link" href="#">C++程序设计</a><span>|</span> <a class="ui-link" href="#"></a><a class="ui-link" href="#"></a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大三 ></a></dt>
+                                <dd> <a class="ui-link" href="#">.Net程序设计</a><span>|</span> <a class="ui-link" href="#">Java基础及程序设</a><span>|</span> <a class="ui-link" href="#">数据结构</a><span>|</span> <a class="ui-link" href="#">计算机网络基础</a><span>|</span> <a class="ui-link" href="#">单片机原理及应用</a> <a class="ui-link" href="#">单片机嵌入式系统设计</a><span>|</span> <a class="ui-link" href="#">嵌入式原理及应用</a> <a class="ui-link" href="#">计算机体系结构</a> <a class="ui-link" href="#"></a><a class="ui-link" href="#"></a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大四 ></a></dt>
+                                <dd> <a class="ui-link" href="#">云计算</a><span>|</span> <a class="ui-link" href="#">软件工程</a><span>|</span> <a class="ui-link" href="#">计算机网络安全</a> </dd>
+                            </dl>
+                            <div class="clr"></div>
+                        </div>
+                    </li>
+                    <!--导航--> 
+                    <!--导航-->
+                    <li class="a1">
+                        <div class="tx"><a href="#">大二课程</a> </div>
+                        <dl>
+                            <dd> <a href="#">电子技术</a><a href="#">|计算方法</a><a href="#">|离散数学</a> <a href="#">操作系统</a> <a href="#">|计算机组成原理</a><a href="#">线性代数I</a> <a href="#">|特色课程</a> </dd>
+                        </dl>
+                        <div class="pop">
+                            <dl>
+                                <dt><a href="#">大一 ></a></dt>
+                                <dd> <a class="ui-link" href="#">高数上</a><span>|</span> <a class="ui-link" href="#">多媒体技术</a><span>|</span> <a class="ui-link" href="#">计算机程序设计</a><span>|</span> <a class="ui-link" href="#">大学计算机导论</a><span>|</span> <a class="ui-link" href="#">C++程序设计</a> <a class="ui-link" href="#">电路基础</a><span>|</span> <a class="ui-link" href="#">英语一级</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大二 ></a></dt>
+                                <dd> <a class="ui-link" href="#">高数下</a><span>|</span> <a class="ui-link" href="#">创新教育</a><span>|</span> <a class="ui-link" href="#">电路基础</a><span>|</span> <a class="ui-link" href="#">英语二级</a><span>|</span> <a class="ui-link" href="#">大学物理(上）</a> <a class="ui-link" href="#">C++程序设计</a><span>|</span> <a class="ui-link" href="#"></a><a class="ui-link" href="#"></a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大三 ></a></dt>
+                                <dd> <a class="ui-link" href="#">.Net程序设计</a><span>|</span> <a class="ui-link" href="#">Java基础及程序设</a><span>|</span> <a class="ui-link" href="#">数据结构</a><span>|</span> <a class="ui-link" href="#">计算机网络基础</a><span>|</span> <a class="ui-link" href="#">单片机原理及应用</a> <a class="ui-link" href="#">单片机嵌入式系统设计</a><span>|</span> <a class="ui-link" href="#">嵌入式原理及应用</a> <a class="ui-link" href="#">计算机体系结构</a> <a class="ui-link" href="#"></a><a class="ui-link" href="#"></a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大四 ></a></dt>
+                                <dd> <a class="ui-link" href="#">云计算</a><span>|</span> <a class="ui-link" href="#">软件工程</a><span>|</span> <a class="ui-link" href="#">计算机网络安全</a> </dd>
+                            </dl>
+                            <div class="clr"></div>
+                        </div>
+                    </li>
+                    <!--导航--> 
+                    <!--导航-->
+                    <li class="a1">
+                        <div class="tx"><a href="#">大三课程</a> </div>
+                        <dl>
+                            <dd> <a href="#">.Net程序设计</a><a href="#">|嵌入式原理及应用</a><a href="#">计算机网络基础</a> <a href="#">|数据结构</a><a href="#">计算机体系结构</a> <a href="#">|微机接口技术</a> <a href="#"></a> </dd>
+                        </dl>
+                        <div class="pop">
+                            <dl>
+                                <dt><a href="#">大一 ></a></dt>
+                                <dd> <a class="ui-link" href="#">高数上</a><span>|</span> <a class="ui-link" href="#">多媒体技术</a><span>|</span> <a class="ui-link" href="#">计算机程序设计</a><span>|</span> <a class="ui-link" href="#">大学计算机导论</a><span>|</span> <a class="ui-link" href="#">C++程序设计</a> <a class="ui-link" href="#">电路基础</a><span>|</span> <a class="ui-link" href="#">英语一级</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大二 ></a></dt>
+                                <dd> <a class="ui-link" href="#">高数下</a><span>|</span> <a class="ui-link" href="#">创新教育</a><span>|</span> <a class="ui-link" href="#">电路基础</a><span>|</span> <a class="ui-link" href="#">英语二级</a><span>|</span> <a class="ui-link" href="#">大学物理(上）</a> <a class="ui-link" href="#">C++程序设计</a><span>|</span> <a class="ui-link" href="#"></a><a class="ui-link" href="#"></a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大三 ></a></dt>
+                                <dd> <a class="ui-link" href="#">.Net程序设计</a><span>|</span> <a class="ui-link" href="#">Java基础及程序设</a><span>|</span> <a class="ui-link" href="#">数据结构</a><span>|</span> <a class="ui-link" href="#">计算机网络基础</a><span>|</span> <a class="ui-link" href="#">单片机原理及应用</a> <a class="ui-link" href="#">单片机嵌入式系统设计</a><span>|</span> <a class="ui-link" href="#">嵌入式原理及应用</a> <a class="ui-link" href="#">计算机体系结构</a> <a class="ui-link" href="#"></a><a class="ui-link" href="#"></a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大四 ></a></dt>
+                                <dd> <a class="ui-link" href="#">云计算</a><span>|</span> <a class="ui-link" href="#">软件工程</a><span>|</span> <a class="ui-link" href="#">计算机网络安全</a> </dd>
+                            </dl>
+                            <div class="clr"></div>
+                        </div>
+                    </li>
+                    <!--导航--> 
+                    <!--导航-->
+                    <li class="a1">
+                        <div class="tx"><a href="#">大四课程</a> </div>
+                        <dl>
+                            <dd> <a href="#">软件工程</a><a href="#">|云计算</a> <a href="#">|PHP程序设计</a> <a href="#">Android移动应用基础</a> <a href="#">计算机网络安全</a> <a href="#">|网络设备</a> <a href="#"></a> </dd>
+                        </dl>
+                        <div class="pop">
+                            <dl>
+                                <dt><a href="#">大一 ></a></dt>
+                                <dd> <a class="ui-link" href="#">高数上</a><span>|</span> <a class="ui-link" href="#">多媒体技术</a><span>|</span> <a class="ui-link" href="#">计算机程序设计</a><span>|</span> <a class="ui-link" href="#">大学计算机导论</a><span>|</span> <a class="ui-link" href="#">C++程序设计</a> <a class="ui-link" href="#">电路基础</a><span>|</span> <a class="ui-link" href="#">英语一级</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大二 ></a></dt>
+                                <dd> <a class="ui-link" href="#">高数下</a><span>|</span> <a class="ui-link" href="#">创新教育</a><span>|</span> <a class="ui-link" href="#">电路基础</a><span>|</span> <a class="ui-link" href="#">英语二级</a><span>|</span> <a class="ui-link" href="#">大学物理(上）</a> <a class="ui-link" href="#">C++程序设计</a><span>|</span> <a class="ui-link" href="#"></a><a class="ui-link" href="#"></a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大三 ></a></dt>
+                                <dd> <a class="ui-link" href="#">.Net程序设计</a><span>|</span> <a class="ui-link" href="#">Java基础及程序设</a><span>|</span> <a class="ui-link" href="#">数据结构</a><span>|</span> <a class="ui-link" href="#">计算机网络基础</a><span>|</span> <a class="ui-link" href="#">单片机原理及应用</a> <a class="ui-link" href="#">单片机嵌入式系统设计</a><span>|</span> <a class="ui-link" href="#">嵌入式原理及应用</a> <a class="ui-link" href="#">计算机体系结构</a> <a class="ui-link" href="#"></a><a class="ui-link" href="#"></a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大四 ></a></dt>
+                                <dd> <a class="ui-link" href="#">云计算</a><span>|</span> <a class="ui-link" href="#">软件工程</a><span>|</span> <a class="ui-link" href="#">计算机网络安全</a> </dd>
+                            </dl>
+                            <div class="clr"></div>
+                        </div>
+                    </li>
+                    <!--导航-->
+                </ul>
+            </div>
+        </div>
+        <!--全部商品分类-->
+         <ul class="w-950 hg-60 ql_nav">
+       <li><a href="index.html" class="cur">首页</a></li>
+            <li><a href="课程列表页面.html">课程</a></li>
+            <li><a href="双师单页.html"></a></li>
+            <li><a href="https://www.nowcoder.com/test/200/summary">学习测试</a></li>
+            <li><a href="讲师.html">名师</a></li>
+            <li><a href="招商单页.html" class="ql_navhot"></a></li>
+            <li><a href="分校详情.html">课程详情</a></li>
+            <li><a href="资讯列表.html">资讯</a></li>
+            <li><a href="联系我们.html">联系我们</a></li>
+    </ul>
+    </div>
+</div>
+<!--网站导航 end--> 
+
+<!--web main body start-->
+<div class="w-all w-minw bg-c-fcfcfc ovhidden">
+    <div class="w-main m-auto"> 
+        <!--面包屑 start-->
+        <div class="w-main fs-14 ftc-7a7a7a line-h45 m-t-18 m-b-18 fl"> 网站位置：首页  >  课程  >  详情 </div>
+        <!--面包屑 end--> 
+    </div>
+    <div class="w-main m-auto"> 
+        <!--分校详情 left start-->
+        <div class="w-840 fl"> 
+            <!--top start-->
+            <div class="w-840 bg-c-ffffff p-t-15 m-b-20 ovhidden fl">
+                <div class="p-l-20 p-r-30 w-790 fl"> 
+                    <!--left school content top start-->
+                    <h3 class="w-all fs-18 ftc-000000 p-b-10 bd-bs-f3f3f3 line-h50 fl">课程介绍</h3>
+                    <div class="w-all m-t-22 fl">
+                        <div class="w-300 hg-225 bd-1s-ededed  fl"> <img src="pics/webg.PNG" width="300" height="225" alt=""/> </div>
+                        <div class="w-430 fr">
+                            <h4 class="w-all fs-18 ftc-000000 line-h55 fl">哈尔滨石油学院</h4>
+                            <p class="w-all fs-14 line-h42 fl">地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址：&nbsp;&nbsp;&nbsp;松北区松浦路297号</p>
+                            <p class="w-all fs-14 line-h42 fl">电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话：&nbsp;&nbsp;&nbsp;0455-87178888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;87178888</p>
+                            <p class="w-all fs-14 line-h42 fl"></p>
+                        </div>
+                    </div>
+                    <div class="w-all hg-22 fl"></div>
+                    <div class="w-all hg-1 bg-c-f3f3f3 fl"></div>
+                </div>
+                <!--left school content top start-->
+                
+                <div class="p-l-20 p-r-30 w-790 fl">
+                    <h3 class="fs-16 ft-w-b ftc-e9511b line-26 p-l-15 m-t-15 m-b-15 line_h3 fl">课程介绍</h3>
+                    <div class="w-790 p-l-15 fs-16 line-h26 ftc-636363 fl">1，帮助学员明确WEB安全的范围；2，推荐学员阅读的WEB安全书籍；3，推荐学员掌握的WEB安全必备工具；4，帮助学员制定WEB安全学习的渐进课程计划.。 <br/>
+                        <br/>
+                    </div>
+                    <h3 class="fs-16 ft-w-b ftc-e9511b line-26 p-l-15 m-t-25 m-b-15 line_h3 fl">适用人群</h3>
+                    <div class="w-790 p-l-15 fs-16 line-h26 ftc-636363 fl">WEB安全测试 WEB系统开发, WEB安全系统运维人,WEB测试人员WEB安全测试 WEB系统开发, WEB安全系统运维人,WEB测试人员WEB安全测试 WEB系统开发, WEB安全系统运维人,WEB测试人员WEB安全测试 WEB系统开发, WEB安全系统运维人,WEB测试人员。<br/>
+                        <br/>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+            <!--top start--> 
+            <!--校区展示 start -->
+            <div class="w-840 bg-c-ffffff p-t-15 ovhidden fl">
+                <div class="p-l-20 p-r-30 w-790 fl">
+                    <h3 class="fs-16 ft-w-b ftc-e9511b line-26 p-l-15 m-t-25 m-b-15 line_h3 fl">图书展示</h3>
+                </div>
+                <div class="w-all hg-1 bg-c-f3f3f3 m-b-6 fl"></div>
+                <div class="w-790 p-l-15 fs-16 fl">
+                    <ul class="w-804 p-b-30 qlclas_smimg ovhidden">
+                        <li class="w-258 hg-193 m-t-5 m-b-6 m-l-4 m-r-4 bd-1s-ededed ovhidden fl"><img src="pics/图书展示1.PNG" alt=""/></li>
+                        <li class="w-258 hg-193 m-t-5 m-b-6 m-l-4 m-r-4 bd-1s-ededed ovhidden fl"><img src="pics/图书展示2.PNG" alt=""/></li>
+                        <li class="w-258 hg-193 m-t-5 m-b-6 m-l-4 m-r-4 bd-1s-ededed ovhidden fl"><img src="pics/图书展示3.PNG" alt=""/></li>
+                        <li class="w-258 hg-193 m-t-5 m-b-6 m-l-4 m-r-4 bd-1s-ededed ovhidden fl"><img src="pics/图书展示4.PNG" alt=""/></li>
+                        <li class="w-258 hg-193 m-t-5 m-b-6 m-l-4 m-r-4 bd-1s-ededed ovhidden fl"><img src="pics/图示展示5.PNG" alt=""/></li>
+                        <li class="w-258 hg-193 m-t-5 m-b-6 m-l-4 m-r-4 bd-1s-ededed ovhidden fl"><img src="pics/图书展示6.PNG" alt=""/></li>
+                    </ul>
+                </div>
+            </div>
+            <!--校区展示 end --> 
+        </div>
+        <!--分校详情 left end--> 
+        
+        <!--分校详情 right start-->
+        <div class="w-340 fr">
+            <div class="w-330 p-l-10 fs-14 bg-c-ffffff ftc-7a7a7a m-b-10 line-h60 fl">人气课程</div>
+            <ul class="w-320 p-l-10 p-r-10 p-b-20 rig_scool bg-c-ffffff fl">
+                <li class="w-all m-t-20 m-b-2 fl"> <a href="https://www.icourse163.org/course/RUC-1001965017" class="dsblock w-102 hg-68 fl ovhidden"><img src="pics/fenxiao.jpg" alt="a"/></a> <a href="https://www.icourse163.org/course/RUC-1001965017" class="dsblock w-175 hg-68 ovhidden fs-16 ftc-000000 line-34 fr">数据库系统概论（新技术篇）</a> </li>
+                <li class="w-all m-t-20 m-b-2 fl"> <a href="https://www.icourse163.org/course/XMU-1001771003" class="dsblock w-102 hg-68 fl ovhidden"><img src="pics/fenxiao.jpg" alt="a"/></a> <a href="https://www.icourse163.org/course/XMU-1001771003" class="dsblock w-175 hg-68 ovhidden fs-16 ftc-000000 line-34 fr">C程序设计基础</a> </li>
+                <li class="w-all m-t-20 m-b-2 fl"> <a href="https://www.icourse163.org/course/NJTU-196001" class="dsblock w-102 hg-68 fl ovhidden"><img src="pics/fenxiao.jpg" alt="a"/></a> <a href="https://www.icourse163.org/course/NJTU-196001" class="dsblock w-175 hg-68 ovhidden fs-16 ftc-000000 line-34 fr">大学计算机——计算思维之路</a> </li>
+                <li class="w-all m-t-20 m-b-2 fl"> <a href="https://www.icourse163.org/course/NEU-1002125002" class="dsblock w-102 hg-68 fl ovhidden"><img src="pics/fenxiao.jpg" alt="a"/></a> <a href="https://www.icourse163.org/course/NEU-1002125002" class="dsblock w-175 hg-68 ovhidden fs-16 ftc-000000 line-34 fr">
+计算机硬件技术基础</a> </li>
+                <li class="w-all m-t-20 m-b-2 fl"> <a href="https://www.icourse163.org/course/sues-1002251006" class="dsblock w-102 hg-68 fl ovhidden"><img src="pics/fenxiao.jpg" alt="a"/></a> <a href="https://www.icourse163.org/course/sues-1002251006" class="dsblock w-175 hg-68 ovhidden fs-16 ftc-000000 line-34 fr">
+数据库技术导论</a> </li>
+                <li class="w-all m-t-20 m-b-2 fl"> <a href="https://www.icourse163.org/course/PKU-1002525004" class="dsblock w-102 hg-68 fl ovhidden"><img src="pics/fenxiao.jpg" alt="a"/></a> <a href="https://www.icourse163.org/course/PKU-1002525004" class="dsblock w-175 hg-68 ovhidden fs-16 ftc-000000 line-34 fr">
+离散数学概论</a> </li>
+            </ul>
+        </div>
+        <!--分校详情 right start--> 
+    </div>
+    <div class="w-main hg-60 fl"></div>
+</div>
+<!--web main body start--> 
+<!--like start-->
+<div class="w-all w-minw bg-c-f6f6f6 ovhidden">
+    <div class="w-main m-auto"> 
+        <!--title start-->
+        <div class="w-main ovhidden p-t-10 fl">
+            <h3 class="fl fs-20 ft-w-b line-h40"><span class="dsblock ql_icon ql_like tx-ind m-r-15 fl">猜你喜欢</span>猜你喜欢</h3>
+        </div>
+        <!--title end-->
+        <ul class="ql_likeclass w-1210 ovhidden">
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="http://edu.51cto.com/course/6799.html" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="pics/zhuabao.PNG" alt=""/> </a> <a href="http://edu.51cto.com/course/6799.html" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">网络抓包与协议分析视频课程</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：000</span> </a> </li>
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="http://edu.51cto.com/course/4792.html " class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="pics/jiwang.PNG" alt=""/> </a> <a href="http://edu.51cto.com/course/4792.html " class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">子网划分超级攻略视频课程</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：000</span> </a> </li>
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="http://edu.51cto.com/course/2229.html" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="pics/huawei.PNG" alt=""/> </a> <a href="http://edu.51cto.com/course/2229.html" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">CCIE&华为HCIE 2014最新CCNAv2.0</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </a> </li>
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="http://edu.51cto.com/course/7875.html" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="pics/大数据2.PNG" alt=""/> </a> <a href="http://edu.51cto.com/course/7875.html" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">大数据</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </a> </li>
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="http://edu.51cto.com/course/9141.html" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="pics/人工.PNG" alt=""/> </a> <a href="http://edu.51cto.com/course/9141.html" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">人工智能</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl">￥：300</span> </a> </li>
+        </ul>
+        <div class="w-amin hg-30 ovhidden"></div>
+    </div>
+</div>
+<!--like end--> 
+<!--web footer start-->
+<div class="w-all w-minw bg-c-e3e3e3 p-t-15 ovhidden"> 
+    <!--link start-->
+    <div class="w-main m-auto">
+        <div class="fl w-65 fs-12 ftc-414141 line-h30 ft-w-b">友情链接：</div>
+        <div class="fr">
+            <ul class="ql_link">
+                <li><a href="#">决胜教育网</a></li>
+                <li><a href="#">优米网</a></li>
+                <li><a href="#">八维教育</a></li>
+                <li><a href="#">雅思培训</a></li>
+                <li><a href="#">中国夏令营</a></li>
+                <li><a href="#">英语口语培训</a></li>
+                <li><a href="#">英语培训</a></li>
+                <li><a href="#">高考试题库</a></li>
+                <li><a href="#">留学监理网</a></li>
+                <li><a href="#">上海雅思培训</a></li>
+                <li><a href="#">幼儿英语培训</a></li>
+                <li><a href="#">广州机构总汇</a></li>
+                <li><a href="#">吉林教育信息网</a></li>
+                <li><a href="#">少儿英语外教</a></li>
+                <li><a href="#">在职研究生</a></li>
+                <li><a href="#">一级建造师</a></li>
+                <li><a href="#">创客教育</a></li>
+                <li><a href="#">百科知识</a></li>
+                <li><a href="#">新航道</a></li>
+                <li><a href="#">顺顺留学</a></li>
+                <li><a href="#">国际学校</a></li>
+                <li><a href="#">成人高考</a></li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+    </div>
+    <!--link end--> 
+    <!--分割线 start-->
+    <div class="w-main m-auto">
+        <div class="w-main fl hg-12"></div>
+        <div class="w-main fl hg-1 bg-c-d2d2d2"></div>
+        <div class="w-main fl hg-24"></div>
+    </div>
+    <!--分割线 start-->
+    <div class="w-main m-auto m-b-23 ovhidden">
+        <div class="m-t-12 fl"> <a href="index.html" class="m-t-25 fl"><img src="pics/shangke1.PNG" width="235" height="70" alt=""/></a>
+            <div class="qlfooter_nav m-l-45 fl">
+                <dl class="ql_f_nav fl">
+                   <dt><a href="#">关于我们</a></dt>
+          <dd><a href="#"><i></i>尚课介绍</a></dd>
+          <dd><a href="#"><i></i>意见专栏</a></dd>
+          <dd><a href="#"><i></i>帮助中心</a></dd>
+          <dd><a href="#"><i></i></a></dd>
+        </dl>
+        <dl class="ql_f_nav ql_f_navzp fl">
+          <dt><a href="#">课程分类</a></dt>
+          <dd><a href="#"><i></i>大一阶段</a></dd>
+          <dd><a href="#"><i></i>大二阶段</a></dd>
+          <dd><a href="#"><i></i>大三阶段</a></dd>
+          <dd><a href="#"><i></i>大四阶段</a></dd>
+        </dl>
+        <div class="ql_f_infp w-200 m-l-15 fl">
+          <h3>联系我们</h3>
+          <p><i></i>电话：0531-81768062</p>
+          <p><i></i>邮箱：151871@qq.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-244 fr">
+            <div class="w-112 m-l-10 fl"> <img src="pics/f_ewm1.gif" width="112" height="112" alt=""/>
+                <p class="w-all fs-12 ftc-000000 text-c line-h25 fl">手机端</p>
+            </div>
+            <div class="w-112 m-l-10 fl"> <img src="pics/f_ewm1.gif" width="112" height="112" alt=""/>
+                <p class="w-all fs-12 ftc-000000 text-c line-h25 fl">手机端</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--web footer copyright start-->
+<div class="w-all w-minw bg-c-cccccc p-t-6 p-b-6 ovhidden">
+    <div class="w-main m-auto text-c fs-12 ftc-414141 line-24"> Copyright 2010-2017     鲁ICP备88888888号-1（济南齐峰教育咨询有限公司） <br/>
+        公司地址：济南市市中区社会组织创新园307（二环南路6086号） </div>
+</div>
+<!--web footer copyright end--> 
+<!--web footer end-->
+</body>
+</html>

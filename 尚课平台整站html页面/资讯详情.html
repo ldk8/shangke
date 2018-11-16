@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>资讯详情_尚课平台</title>
+<meta name="keywords" content="尚课平台">
+<meta name="description" content="尚课平台">
+<meta name="author" content="山东商讯在线 http://www.sdsoon.com/">
+<link rel="stylesheet" href="css/qfbase.css">
+<!--尚课平台的共有样式-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/qlclass.pl.js"></script>
+<body>
+<!--web-top start-->
+<div class="w-all w-minw bd-sd-b hg-45">
+    <div class="w-main m-auto"> 
+        <!-- top left start-->
+        <div class="fl"> <span class="fs-12 line-h45 ftc-000000 dsblock fl"> 哈尔滨</span> <a href="城市.html" class="dsblock fl line-h45 fs-12 ftc-fc0503">[切换地图]</a> <a href="index.html" class="dsblock fl fs-12 ftc-000000 line-h45 m-l-70">首页</a> 
+            <!--top 导航 start-->
+            <div class="hover-topnav fl m-l-45">
+                <div class="dh_nav fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45"><i class="p-l-15 ql_icon dh_topnav hg-45 fl"></i>导航</span>
+                     <ul class="dh_nav_sub bg-c-ffffff bd-sd-b">
+                       <li> <a href="课程列表页面.html"><i class="ql_icon"></i>大一</a> </li>
+                        <li> <a href="课程列表页面.html"><i class="ql_icon"></i>大二</a> </li>
+                        <li> <a href="课程列表页面.html"><i class="ql_icon"></i>大三</a> </li>
+                        <li> <a href="课程列表页面.html"><i class="ql_icon"></i>大四</a> </li>
+                        <li> <a href=""><i class="ql_icon"></i>讲师</a> </li>
+                        <li> <a href=""><i class="ql_icon"></i>云课</a> </li>
+                        <li> <a href=""><i class="ql_icon"></i>测试</a> </li>
+                        <li> <a href=""><i class="ql_icon"></i>资讯</a> </li>
+                        <li> <a href=""><i class="ql_icon"></i>联系我们</a> </li>
+             
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+            </div>
+            <!--top 导航 end--> 
+            <!--top wap start-->
+            <div class="hover-topnav fl m-l-45">
+                <div class="dh_nav fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45"><i class="p-l-15 ql_icon top_wapewem hg-45 fl"></i>手机端</span>
+                    <div class="top_wap_ewem bg-c-ffffff bd-sd-b"> <img src="pics/wap.png" width="100" alt=""/>
+                        <p class="w-all fs-13 text-c line-h25">扫描二维码</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- top left end--> 
+        <!-- top right start-->
+        <div class="fr"> 
+            <!--登录注册 start-->
+            <div class="fl"> <a class="fs-12 ftc-000000 line-h45" href="#"><i class="p-l-20 ql_icon login_icon hg-45 fl m-r-10"></i>请登录</a> <span class="fs-12 ftc-000000 line-h45 m-l-15 m-r-15">|</span> <a class="fs-12 ftc-000000 line-h45" href="#">注册</a> </div>
+            <!--登录注册 end--> 
+            <!--我的购物车 start-->
+            <div class="fl m-l-30" id="hd-my-cart">
+                <div class="my-cart"> <i class="p-l-25 ql_icon cart_icon hg-45 fl m-r-10"><em>0</em></i>
+                    <p class="fl fs-12 ftc-000000 line-h45">我的购物车</p>
+                </div>
+            </div>
+            <!--我的购物车 end--> 
+            <!--top 客服中心 start-->
+            <div class="hover-topkf fl m-l-45">
+                <div class="top_kf fl fs-12 ftc-000000 line-h45"><span class="dsblock hg-45">客服中心<i class="p-l-10 m-l-10 ql_icon top_kficon hg-45 fr"></i></span>
+                    <ul class="top_kf_list bg-c-ffffff bd-sd-b">
+                        <li> <a href="#"><i class="ql_icon"></i>联系电话：0531-81768062</a> </li>
+                        <li> <a href="#"><i class="ql_icon"></i>联系电话：0531-81768062</a> </li>
+                        <li> <a href="#"><i class="ql_icon"></i>邮箱：1563891871@qq</a> </li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+            </div>
+            <!--top 客服中心 start--> 
+        </div>
+        <!-- top right end--> 
+    </div>
+</div>
+<!--web-top end-->
+<div class="clear"></div>
+<!--web logo and search start-->
+<div class="w-main m-auto m-t-37 m-b-25 ovhidden"> 
+    <!--web logo start--> 
+    <a href="index.html" class="logo fl"><img src="pics/shangke1.PNG" width="240" height="70" alt=""/></a> 
+    <!--web logo end--> 
+    <!--web search start-->
+    <div class="search w-540 m-l-115 m-t-15 fl">
+        <form action="#" method="get" id="searchform" name="searchform" onSubmit="return checkSearchForm()" class="w-540 search-form">
+            <input class="p-l-15 bd-2s-e9511b w-435 line-h35 hg-35 fs-12 ftc-a9a9a9 fl" type="text" name="keywords" id="keyword" value="搜索：大学课程" onfocus="if(this.value == '搜索：大学课程')this.value = ''" onblur="if(this.value == '')this.value='搜索：大学课程'" autocomplete="off">
+            <input type="hidden" value="k1" name="dataBi">
+            <button type="submit" class="w-85 line-h39 hg-39 fs-16 ftc-ffffff bg-c-e9511b fl">提交</button>
+        </form>
+        <div class="w-540 fl" id="hotkeywords"> <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20"></a> <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20"></a> <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20"></a> <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20"></a> <a href="#" class="dsblock fs-12 ftc-8b8b8b line-h30 fl m-r-20"></a>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!--web search end-->
+    <div class="fr"> <img src="pics/dianhua.PNG" width="199" height="70" alt="尚课平台电话"/> </div>
+</div>
+<!--web logo and search end--> 
+<!--网站导航 start-->
+<div class="w-all w-minw hg-60 bd-bs-e9511b bg-c-ffffff ql_webnav"> 
+    <!--网站导航 start-->
+    <div class="w-main m-auto ps-r hg-60"> 
+        <!--全部商品分类-->
+        <div class="hc_lnav jslist">
+            <div class="allbtn">
+                <h2><a href="#">全部课程分类</a></h2>
+                <ul style="width:250px" class="jspop box">
+                    <!--导航-->
+                    <li class="a1">
+                        <div class="tx"><a href="#">大一课程</a> </div>
+                        <dl>
+                            <dd> <a href="#">高等数学</a><a href="#">|多媒体技术</a><a href="#">计算机程序设计</a> <a href="#">|大学计算机导论</a> <a href="#">C++程序设计</a><a href="#">|电路基础</a> <a href="#">特色课程</a> </dd>
+                        </dl>
+                        <div class="pop">
+                            <dl>
+                                <dt><a href="#">大一 ></a></dt>
+                                <dd> <a class="ui-link" href="#">高数上</a><span>|</span> <a class="ui-link" href="#">多媒体技术</a><span>|</span> <a class="ui-link" href="#">计算机程序设计</a><span>|</span> <a class="ui-link" href="#">大学计算机导论</a><span>|</span> <a class="ui-link" href="#">C++程序设计</a> <a class="ui-link" href="#">电路基础</a><span>|</span> <a class="ui-link" href="#">英语一级</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大二 ></a></dt>
+                                <dd> <a class="ui-link" href="#">高数下</a><span>|</span> <a class="ui-link" href="#">创新教育</a><span>|</span> <a class="ui-link" href="#">电路基础</a><span>|</span> <a class="ui-link" href="#">英语二级</a><span>|</span> <a class="ui-link" href="#">大学物理(上）</a> <a class="ui-link" href="#">C++程序设计</a><span>|</span> <a class="ui-link" href="#"></a><a class="ui-link" href="#"></a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大三 ></a></dt>
+                                <dd> <a class="ui-link" href="#">.Net程序设计</a><span>|</span> <a class="ui-link" href="#">Java基础及程序设</a><span>|</span> <a class="ui-link" href="#">数据结构</a><span>|</span> <a class="ui-link" href="#">计算机网络基础</a><span>|</span> <a class="ui-link" href="#">单片机原理及应用</a> <a class="ui-link" href="#">单片机嵌入式系统设计</a><span>|</span> <a class="ui-link" href="#">嵌入式原理及应用</a> <a class="ui-link" href="#">计算机体系结构</a> <a class="ui-link" href="#"></a><a class="ui-link" href="#"></a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大四 ></a></dt>
+                                <dd> <a class="ui-link" href="#">云计算</a><span>|</span> <a class="ui-link" href="#">软件工程</a><span>|</span> <a class="ui-link" href="#">计算机网络安全</a> </dd>
+                            </dl>
+                            <div class="clr"></div>
+                        </div>
+                    </li>
+                    <!--导航--> 
+                    <!--导航-->
+                    <li class="a1">
+                        <div class="tx"><a href="#">大二课程</a> </div>
+                        <dl>
+                            <dd> <a href="#">电子技术</a><a href="#">|计算方法</a><a href="#">|离散数学</a> <a href="#">操作系统</a> <a href="#">|计算机组成原理</a><a href="#">线性代数I</a> <a href="#">|特色课程</a> </dd>
+                        </dl>
+                        <div class="pop">
+                            <dl>
+                                <dt><a href="#">大一 ></a></dt>
+                                <dd> <a class="ui-link" href="#">高数上</a><span>|</span> <a class="ui-link" href="#">多媒体技术</a><span>|</span> <a class="ui-link" href="#">计算机程序设计</a><span>|</span> <a class="ui-link" href="#">大学计算机导论</a><span>|</span> <a class="ui-link" href="#">C++程序设计</a> <a class="ui-link" href="#">电路基础</a><span>|</span> <a class="ui-link" href="#">英语一级</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大二 ></a></dt>
+                                <dd> <a class="ui-link" href="#">高数下</a><span>|</span> <a class="ui-link" href="#">创新教育</a><span>|</span> <a class="ui-link" href="#">电路基础</a><span>|</span> <a class="ui-link" href="#">英语二级</a><span>|</span> <a class="ui-link" href="#">大学物理(上）</a> <a class="ui-link" href="#">C++程序设计</a><span>|</span> <a class="ui-link" href="#"></a><a class="ui-link" href="#"></a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大三 ></a></dt>
+                                <dd> <a class="ui-link" href="#">.Net程序设计</a><span>|</span> <a class="ui-link" href="#">Java基础及程序设</a><span>|</span> <a class="ui-link" href="#">数据结构</a><span>|</span> <a class="ui-link" href="#">计算机网络基础</a><span>|</span> <a class="ui-link" href="#">单片机原理及应用</a> <a class="ui-link" href="#">单片机嵌入式系统设计</a><span>|</span> <a class="ui-link" href="#">嵌入式原理及应用</a> <a class="ui-link" href="#">计算机体系结构</a> <a class="ui-link" href="#"></a><a class="ui-link" href="#"></a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大四 ></a></dt>
+                                <dd> <a class="ui-link" href="#">云计算</a><span>|</span> <a class="ui-link" href="#">软件工程</a><span>|</span> <a class="ui-link" href="#">计算机网络安全</a> </dd>
+                            </dl>
+                            <div class="clr"></div>
+                        </div>
+                    </li>
+                    <!--导航--> 
+                    <!--导航-->
+                    <li class="a1">
+                        <div class="tx"><a href="#">大三课程</a> </div>
+                        <dl>
+                            <dd> <a href="#">.Net程序设计</a><a href="#">|嵌入式原理及应用</a><a href="#">计算机网络基础</a> <a href="#">|数据结构</a><a href="#">计算机体系结构</a> <a href="#">|微机接口技术</a> <a href="#"></a> </dd>
+                        </dl>
+                        <div class="pop">
+                            <dl>
+                                <dt><a href="#">大一 ></a></dt>
+                                <dd> <a class="ui-link" href="#">高数上</a><span>|</span> <a class="ui-link" href="#">多媒体技术</a><span>|</span> <a class="ui-link" href="#">计算机程序设计</a><span>|</span> <a class="ui-link" href="#">大学计算机导论</a><span>|</span> <a class="ui-link" href="#">C++程序设计</a> <a class="ui-link" href="#">电路基础</a><span>|</span> <a class="ui-link" href="#">英语一级</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大二 ></a></dt>
+                                <dd> <a class="ui-link" href="#">高数下</a><span>|</span> <a class="ui-link" href="#">创新教育</a><span>|</span> <a class="ui-link" href="#">电路基础</a><span>|</span> <a class="ui-link" href="#">英语二级</a><span>|</span> <a class="ui-link" href="#">大学物理(上）</a> <a class="ui-link" href="#">C++程序设计</a><span>|</span> <a class="ui-link" href="#"></a><a class="ui-link" href="#"></a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大三 ></a></dt>
+                                <dd> <a class="ui-link" href="#">.Net程序设计</a><span>|</span> <a class="ui-link" href="#">Java基础及程序设</a><span>|</span> <a class="ui-link" href="#">数据结构</a><span>|</span> <a class="ui-link" href="#">计算机网络基础</a><span>|</span> <a class="ui-link" href="#">单片机原理及应用</a> <a class="ui-link" href="#">单片机嵌入式系统设计</a><span>|</span> <a class="ui-link" href="#">嵌入式原理及应用</a> <a class="ui-link" href="#">计算机体系结构</a> <a class="ui-link" href="#"></a><a class="ui-link" href="#"></a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大四 ></a></dt>
+                                <dd> <a class="ui-link" href="#">云计算</a><span>|</span> <a class="ui-link" href="#">软件工程</a><span>|</span> <a class="ui-link" href="#">计算机网络安全</a> </dd>
+                            </dl>
+                            <div class="clr"></div>
+                        </div>
+                    </li>
+                    <!--导航--> 
+                    <!--导航-->
+                    <li class="a1">
+                        <div class="tx"><a href="#">大四课程</a> </div>
+                        <dl>
+                            <dd> <a href="#">软件工程</a><a href="#">|云计算</a> <a href="#">|PHP程序设计</a> <a href="#">Android移动应用基础</a> <a href="#">计算机网络安全</a> <a href="#">|网络设备</a> <a href="#"></a> </dd>
+                        </dl>
+                        <div class="pop">
+                            <dl>
+                                <dt><a href="#">大一 ></a></dt>
+                                <dd> <a class="ui-link" href="#">高数上</a><span>|</span> <a class="ui-link" href="#">多媒体技术</a><span>|</span> <a class="ui-link" href="#">计算机程序设计</a><span>|</span> <a class="ui-link" href="#">大学计算机导论</a><span>|</span> <a class="ui-link" href="#">C++程序设计</a> <a class="ui-link" href="#">电路基础</a><span>|</span> <a class="ui-link" href="#">英语一级</a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大二 ></a></dt>
+                                <dd> <a class="ui-link" href="#">高数下</a><span>|</span> <a class="ui-link" href="#">创新教育</a><span>|</span> <a class="ui-link" href="#">电路基础</a><span>|</span> <a class="ui-link" href="#">英语二级</a><span>|</span> <a class="ui-link" href="#">大学物理(上）</a> <a class="ui-link" href="#">C++程序设计</a><span>|</span> <a class="ui-link" href="#"></a><a class="ui-link" href="#"></a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大三 ></a></dt>
+                                <dd> <a class="ui-link" href="#">.Net程序设计</a><span>|</span> <a class="ui-link" href="#">Java基础及程序设</a><span>|</span> <a class="ui-link" href="#">数据结构</a><span>|</span> <a class="ui-link" href="#">计算机网络基础</a><span>|</span> <a class="ui-link" href="#">单片机原理及应用</a> <a class="ui-link" href="#">单片机嵌入式系统设计</a><span>|</span> <a class="ui-link" href="#">嵌入式原理及应用</a> <a class="ui-link" href="#">计算机体系结构</a> <a class="ui-link" href="#"></a><a class="ui-link" href="#"></a> </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">大四 ></a></dt>
+                                <dd> <a class="ui-link" href="#">云计算</a><span>|</span> <a class="ui-link" href="#">软件工程</a><span>|</span> <a class="ui-link" href="#">计算机网络安全</a> </dd>
+                            </dl>
+                            <div class="clr"></div>
+                        </div>
+                    </li>
+                    <!--导航-->
+                </ul>
+            </div>
+        </div>
+        <!--全部商品分类-->
+         <ul class="w-950 hg-60 ql_nav">
+       <li><a href="index.html" class="cur">首页</a></li>
+            <li><a href="课程列表页面.html">课程</a></li>
+            <li><a href="双师单页.html"></a></li>
+            <li><a href="https://www.nowcoder.com/test/200/summary">学习测试</a></li>
+            <li><a href="讲师.html">名师</a></li>
+            <li><a href="招商单页.html" class="ql_navhot"></a></li>
+            <li><a href="课程介绍.html">课程介绍</a></li>
+            <li><a href="资讯列表.html">资讯</a></li>
+            <li><a href="联系我们.html">联系我们</a></li>
+    </ul>
+    </div>
+</div>
+<!--网站导航 end--> 
+
+<!--web main body start-->
+<div class="w-all w-minw bg-c-fcfcfc ovhidden">
+    <div class="w-main m-auto ovhidden"> 
+        <!--面包屑 start-->
+        <div class="w-main fs-14 ftc-7a7a7a line-h45 m-t-18 m-b-18 fl"> 网站位置：首页  >  资讯  >  详情 </div>
+        <!--面包屑 end--> 
+        
+        <!--left start-->
+        <div class="w-840 fl">
+            <div class="w-770 bg-c-ffffff ovhidden p-l-35 p-r-35 fl">
+                <h3 class="w-all line-h75 text-c fs-20 ftc-000000 fl">你是否了解计算机专业方向？ </h3>
+            </div>
+            <div class="w-770 bg-c-ffffff ovhidden p-l-35 p-r-35 fl">
+                <div class="w-770 bg-c-f2f2f2 ovhidden text-c m-b-25 fl">
+                    <p class="fs-12 ftc-8b8b8b line-h30 fl"><i class="dsblock w-14 hg-30 ql_icon ql_time m-r-6 m-l-200 m-r-12 fl"></i>发布时间：2017-08-09    15:38&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;来源: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作者:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 浏览次数:0次</p>
+                </div>
+                <div class="w-770 ovhidden fs-14 line-h28 ftc-676767 m-b-25"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+计算机科学（Computer Science）主要研究计算机系统与软件的设计以及相关理论与应用领域。学生要学习很多抽象化的概念。因为计算机沟通要求精确性，因此必须学会使用精确的程序语言。在学习的过程中，学生会被要求思考很多问题，例如：为什么编程语言会被设计成现在这样？现实问题如何被转化、编译成一个程序并成功解决？当一个程序被执行时，计算及内部是如何运行的？如何构建计算机才能使其功能运转？计算机和程序对于各个领域都有什么影响？一些大学注重实用性技术，一些则注重抽象概念和最新技术前沿理论。另外，一些大学要求学生要有很强的数学和逻辑背景。计算机科学是一个很有难度、充满挑战的学科，学生的项目和作业都需要花费很长时间；它也是一个年轻的、充满机遇但又要求非常高的领域。如果你痴迷于抽象化思考以及实践性应用，那么计算机科学将很适合你。<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    在美国，计算机科学专业的概念很模糊，可以说CS（计算机科学），CE（计算机工程）和EE（电子电气工程）是相通的。有些美国院校设有单独的计算机科学系，也有一部分将EE和CS设在一个院系下，比如MIT、加州大学伯克利分校、东北大学等。还有一部分学校讲CS和CE设在一起，比如华盛顿大学西雅图分校、加州大学圣地亚哥分校、宾州州立大学帕克分校等。
+
+计算机科学大体可以分为三大类，分别是理论层面研究、系统软件层面研究还有计算机应用层面研究。下面我们来重点介绍一下理论层面与系统软件层面的研究。
+
+理论层面研究
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    理论层面研究包括6个方面：
+
+1、 计算理论（theory of computation）：关于计算和计算机械的数学理论
+
+2、 计算几何学（computational geometry）
+
+3、 并行计算（parallel computation）
+
+4、 形式化方法（formal method）
+
+5、 程序设计语言理论（theory of programming language）：研究书写计算机程序语言的学科
+
+6、 人工智能（artificial intelligence）
+                                        <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    系统软件层面
+
+在全美TOP100所开设CS的高校中，设有软件工程专业细分方向的大概有70所左右，而在这70所学校里面，软件工程研究比较强、教授比较牛、投入比较大的有以下这些学校：卡内基梅隆大学、伊利诺伊大学香槟分校、马里兰大学帕克分校、俄亥俄州立大学、德州农工大学、弗吉尼亚理工学院、科罗拉多大学波尔多分校、内布拉斯加大学林肯分校。
+
+伊利诺伊大学香槟分校对申请人背景要求较高，一般要求GPA3.0，GRE320分，TOEFL100分，被录取者要么硬性分数比较高，要么研究背景比较强，学校每年录取人数比较多，有奖学金录取比例较高。而俄亥俄州立大学每年发的AD（无奖学金录取）都比较多，对中国学生都比较友好，硬性条件比较好的申请人会有优势，例如过往被录取的学生中多半GRE达到320分，托福达到95分，GPA达到了3.5.但因为学校招人比较多，所以成功录取的概率比较大。而一般学校要求申请人有一定的编程背景，熟悉掌握编程语言和软件设计思想，有一定的软件设计项目经历。
+                    
+           <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;专业分支
+
+1、 Artificial Intelligence
+
+人工智能作为目前发展前景非常好的方向，对申请者的学书背景有着较高的要求，并更看重申请者在数学和算法方面的背景。
+
+2、 Computer Architecture/Hardware Systems and Design/VLSI
+
+计算机结构/硬件系统与设计/超大规模集成电路，这个方向严格来说并不属于计算机科学，但在很多学校被划分在计算机工程学院中。这个方向主要涉及计算机硬件芯片，例如CPU的结构设计、内部结构逻辑门的电子开关设置，所以申请者必须具备很强的逻辑电路基础知识，需要修过模电、数电、电路设计等相关课程。
+
+3、 User Interface（UI）
+
+人机交互技术的申请热度近几年也在不断升温，除了要求申请者有计算机能力之外，其设计和美工能力也需达到申请标准。
+
+4、 Data Science/Big Data/Data Mining
+
+数据科学/大数据/数据挖掘，数据方向进来也是越来越热门的专业方向，主要进行大数据的分析和整理从而得出具有指导意义的信息，比如某超市啤酒和纸尿布的经典案例。随着近年来电商的大规模兴起，数据已经成为炙手可热的专业方向。这个方向除了对申请者的学术背景有要求之外，对申请者的数学能力也有较高的要求。
+
+5、 Information Science/Information Retrieval/Information Security
+
+信息科学/信息检索/信息安全是在美国国内的热门方向之一。除此之外，信息系统、信息安全技术、信息恢复、数据库方向名额有限，使得国际学生的申请竞争变得更加激烈。
+
+6、 Software Engineering
+
+软件工程是国际学生最热衷的方向，录取的名额较多，就业很有保障，是非常好的专业方向。但是特朗普上台之后，对编程工程这个职业的H1B抽签名额进行了较大幅度的下调，主要是限制印度学生在这一岗位长期垄断的现象，就业前景依然非常好，但是竞争将会更加大。
+
+7、 Management Information System（MIS）
+
+在很多学校，管理信息系统专业设在管理学院，也有的设置在计算机学院。在CS的这个专业内容多为技术课程，所以如果想往技术方向发展的话需特别注意，最好申请到计算机学院下的MIS专业。<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;就业方向
+
+第一类是多媒体动漫方向。这个专业包括了计算机图形学（Computer Graphic），主要研究图像的表达、处理等。计算机成像、三维动画、网络影像传播都属于这个方向的范畴。学习这个专业的同学可以去游戏设计公司、电影视频公司、电子出版、教育软件开发、商业简报、平面广告设计及其他多媒体应用领域公司的媒体集成与系统设计的工作岗位寻找机会。
+
+第二类是软件编程方向。大体上分成软件设计、编程语言和软件测试专业，包括需求分析、结构设计、开发流程、生命周期等相关内容。计算机专业的基础学科，如操作系统、数据结构和算法全部包含在内。此方向几乎属于CS内部第一大方向，录取名额很多，奖学金也有一些。由于这个专业是专门培养编码人员的，而计算机专业的从业者大部分就是编码工作者，因此学习这个专业工作机会较多，但是起步阶段的收入居于中等。
+
+第三类是计算机网络（Networking），设置包括电信（Telecommunication），这个范围非常大。网络应用、网络协议、网络通信、网络理论、网络安全、加密解密、路由算法甚至编解码都是需要学习的课程。这个方向的申请者也非常多，来自EE、ECE背景的同学也都可以申请。电信就业不错，从设备上到运营商到第三方软件开发商都有职位可以选择。很多公司的招聘限定电信和CS、EE相关专业。国内这方面工作机会也多，比如中国移动，按照用户数量来算是世界第一大运营商。计算机网络里面有方面涉及网络安全方面，这个方向的工作主要是在政府，国防，电信，电力，金融，铁路等部门的计算机网络系统。但若在美国就业，会受到公民身份等不少限制。
+
+第四类是计算机科学技术方向。该方向包括了理论性非常强的计算机理论、计算机科学与工程算法（Scientific Computing）等。
+
+计算理论是完全偏向理论的学科，研究的不只是算法，更重要的是研究算法的有效性和可行性。算法可行性、算法复杂度、密码学相关领域都是这个偏理论的方向的研究对象。不太建议同学们申请本专业，因为从各个渠道得来的消息表明这个方向就业较差。这一点在美国和中国都是一样的，学习过于偏重理论和科技前沿探索的专业往往会比较难找工作。
+
+计算机科学与工程计算具体包括生物信息学（目前影响力最大）、气象数据处理、数字处理算法、计算物理、计算化学等。这个专业的特点是交叉学科，往往要求申请者除了有计算机科学相关的背景外，还要有一点生物、物理、化学等方面的背景。目前此类学科属于前沿新生的专业，就业形势不明朗。很多学习此类专业的同学就业时还是转向了传统的写代码的相关岗位。
+
+第五类是人工智能与人机交互方向。人工智能其实是很综合的学科，其目的就是把人类的智能扩展到信息的机器上。人工智能方向覆盖了计算机专业的很多小方向，比如机器学习系统、计算机语言、图像处理、语音识别、机器人、人机交互等。该专业方向对于申请者的计算机科学背景要求较高，包括对数据结构算法之类的计算机专业的课程，都有一定要求。人工智能的产品包括机器人、语言识别、图像识别、自然语言处理和专家系统等。这个方向最近很热，招收名额较多，主要招收也有从博士向硕士转移的趋势。完全对口的工作是纯研发的性质，岗位较少，不过退一步海阔天空，在各类电子设备商处都有大批此类专业的毕业生可以涉足的工作。唯一需要注意的是AI的某些部分在美国也一定程度上应用于国防。<br/>
+                     </div>
+            </div>
+            <ul class="w-840 m-t-10 m-b-10 ovhidden fl">
+                <li class="fl"><a href="#" class="dsblock fl w-410 p-r-10 one_hidden ftc-676767 fs-16 line-h60 fl">上一篇：未来物联网工程对时代的影响</a></li>
+                <li class="fl"><a href="#" class="dsblock fl w-410 p-r-10 one_hidden ftc-676767 fs-16 line-h60 fl">下一篇：人工智能的未来走向</a></li>
+            </ul>
+        </div>
+        <!--left end--> 
+        
+        <!--right start--> 
+        <!--热门资讯 right start-->
+        <div class="w-340 fr">
+            <div class="w-330 p-l-10 fs-14 bg-c-ffffff ftc-7a7a7a m-b-10 line-h60 fl">热门资讯</div>
+            <ul class="w-320 p-l-10 p-r-10 p-b-20 rig_scool bg-c-ffffff fl">
+                <li class="w-all m-t-20 m-b-2 fl"> <a href="资讯详情.html" class="dsblock w-102 hg-68 fl ovhidden"><img src="pics/fenxiao.jpg" alt="a"/></a> <a href="https://www.icourse163.org/course/ZJU-93001" class="dsblock w-200 m-t-10 ovhidden fs-16 ftc-000000 line-34 tw_hidden fr">学了一门编程语言不知道能干啥？来学数据结构就对啦！ 学会编程相当于会砌猪圈的泥瓦匠，学完数据结构就会盖个双层小楼啦~</a> </li>
+                <li class="w-all m-t-20 m-b-2 fl"> <a href="资讯详情.html" class="dsblock w-102 hg-68 fl ovhidden"><img src="pics/fenxiao.jpg" alt="a"/></a> <a href="https://www.icourse163.org/course/ZJU-199001" class="dsblock w-200 m-t-10 ovhidden fs-16 ftc-000000 line-34 tw_hidden fr">C语言是古老而长青的编程语言，它具备了现代程序设计的基础要求，它的语法是很多其他编程语言的基础，在系统程序、嵌入式系统等领域依然是无可替代的编程语言，在各类编程语言排行榜上常年占据前两名的位置。</a> </li>
+                <li class="w-all m-t-20 m-b-2 fl"> <a href="资讯详情.html" class="dsblock w-102 hg-68 fl ovhidden"><img src="pics/fenxiao.jpg" alt="a"/></a> <a href="https://www.icourse163.org/course/HNU-1001690002" class="dsblock w-200 m-t-10 ovhidden fs-16 ftc-000000 line-34 tw_hidden fr">"道法自然”——借鉴自然界信息处理机制设计智能计算新方法，是智能科学与技术研究的重要的研究哲学思想。</a> </li>
+                <li class="w-all m-t-20 m-b-2 fl"> <a href="资讯详情.html" class="dsblock w-102 hg-68 fl ovhidden"><img src="pics/fenxiao.jpg" alt="a"/></a> <a href="https://www.icourse163.org/course/JLU-1002056024" class="dsblock w-200 m-t-10 ovhidden fs-16 ftc-000000 line-34 tw_hidden fr">在这个信息社会的浪潮中，工业4.0、智能手机、云计算、大数据、机器人、人工智能等技术洪流中，你是否已经“乱花渐欲迷人眼”。</a> </li>
+                <li class="w-all m-t-20 m-b-2 fl"> <a href="资讯详情.html" class="dsblock w-102 hg-68 fl ovhidden"><img src="pics/fenxiao.jpg" alt="a"/></a> <a href="https://www.icourse163.org/course/CHD-1002012002" class="dsblock w-200 m-t-10 ovhidden fs-16 ftc-000000 line-34 tw_hidden fr">《C++语言程序设计》包含两个概念：程序设计是求解问题的思想，C++则是表达思想的语言。程序设计的原理是共同的，而计算机语言可以是不同的。</a> </li>
+                <li class="w-all m-t-20 m-b-2 fl"> <a href="资讯详情.html" class="dsblock w-102 hg-68 fl ovhidden"><img src="pics/fenxiao.jpg" alt="a"/></a> <a href="https://www.icourse163.org/course/CHD-1002012002" class="dsblock w-200 m-t-10 ovhidden fs-16 ftc-000000 line-34 tw_hidden fr">网络视频监控是在模拟视频监控的基础上由国外快速引入中国的，目前中国市场上模拟、模数混合、全数字监控系统呈混合使用状态</a> </li>
+                <li class="w-all m-t-20 m-b-2 fl"> <a href="资讯详情.html" class="dsblock w-102 hg-68 fl ovhidden"><img src="pics/fenxiao.jpg" alt="a"/></a> <a href="https://www.icourse163.org/course/HHU-1001755117" class="dsblock w-200 m-t-10 ovhidden fs-16 ftc-000000 line-34 tw_hidden fr">云计算是分布式计算、并行计算、效用计算、 网络存储、虚拟化、负载均衡等传统计算机和网络技术发展融合的产物。 我们身处云计算和大数据时代，已经在“云”端学习与生活</a> </li>
+                <li class="w-all m-t-20 m-b-2 fl"> <a href="资讯详情.html" class="dsblock w-102 hg-68 fl ovhidden"><img src="pics/fenxiao.jpg" alt="a"/></a> <a href="https://www.icourse163.org/course/JLU-1001540001" class="dsblock w-200 m-t-10 ovhidden fs-16 ftc-000000 line-34 tw_hidden fr">本课程是全校各专业选修课程。本课程的任务是从应用角度出发，使学生掌握基本的网络知识，在理论和实践上掌握简单的计算机网络的构成、工作原理、连接方式，建立计算机网络的基本概念</a> </li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+        <!--热门资讯 right start--> 
+        <!--right end --> 
+        
+    </div>
+</div>
+<!--web main body start--> 
+<!--like start-->
+<div class="w-all w-minw bg-c-f6f6f6 ovhidden">
+    <div class="w-main m-auto"> 
+        <!--title start-->
+        <div class="w-main ovhidden p-t-10 fl">
+            <h3 class="fl fs-20 ft-w-b line-h40"><span class="dsblock ql_icon ql_like tx-ind m-r-15 fl">猜你喜欢</span>猜你喜欢</h3>
+        </div>
+        <!--title end-->
+        <ul class="ql_likeclass w-1210 ovhidden">
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="https://www.icourse163.org/course/UESTC-1002047009?edusave=1" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="pics/汇编1.PNG" alt=""/> </a> <a href="https://www.icourse163.org/course/UESTC-1002047009?edusave=1" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">汇编语言程序设计</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl"></span> </a> </li>
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="https://www.icourse163.org/course/DLUT-1002607070 " class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="pics/嵌入式1.PNG" alt=""/> </a> <a href="https://www.icourse163.org/course/DLUT-1002607070 " class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">嵌入式软件设计</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl"></span> </a> </li>
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="https://www.icourse163.org/course/HIT-356006" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="pics/算法1.PNG" alt=""/> </a> <a href="https://www.icourse163.org/course/HIT-356006" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">算法设计与分析入门</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl"></span> </a> </li>
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="https://www.icourse163.org/course/HIT-298007" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="pics/软件1.PNG" alt=""/> </a> <a href="https://www.icourse163.org/course/HIT-298007" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">软件工程专业导论</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl"></span> </a> </li>
+            <li class="w-230 bg-c-ffffff m-t-10 m-r-6 m-l-6 m-b-10 fl"> <a href="https://www.icourse163.org/course/MSRA-1002305003" class="dsblock w-230 hg-165 ovhidden ps-r"> <img src="pics/人工1.PNG" alt=""/> </a> <a href="https://www.icourse163.org/course/MSRA-1002305003" class="w-210 p-l-10 p-r-10 fl">
+                <h3 class="w-all fs-16 ftc-000000 line-h32  one_hidden  m-t-6 fl">微软人工智能 - 概览</h3>
+                <span class="dsblock w-all fs-20 ftc-ff0000 line-h32 fl"></span> </a> </li>
+        </ul>
+        <div class="w-amin hg-30 ovhidden"></div>
+    </div>
+</div>
+<!--like end--> 
+<!--web footer start-->
+<div class="w-all w-minw bg-c-e3e3e3 p-t-15 ovhidden"> 
+    <!--link start-->
+    <div class="w-main m-auto">
+        <div class="fl w-65 fs-12 ftc-414141 line-h30 ft-w-b">友情链接：</div>
+        <div class="fr">
+            <ul class="ql_link">
+                <li><a href="#">慕课网</a></li>
+        <li><a href="#">网易云课堂</a></li>
+        <li><a href="#">先锋教育</a></li>
+        <li><a href="#">51CTO学院</a></li>
+        <li><a href="#">麦子学院</a></li>
+        <li><a href="#">百度传课</a></li>
+        <li><a href="#">腾讯课堂</a></li>
+        <li><a href="#">w3school</a></li>
+        <li><a href="#">自学编程网</a></li>
+        <li><a href="#">上海雅思培训</a></li>
+        <li><a href="#">幼儿英语培训</a></li>
+        <li><a href="#">广州机构总汇</a></li>
+        <li><a href="#">吉林教育信息网</a></li>
+        <li><a href="#">少儿英语外教</a></li>
+        <li><a href="#">在职研究生</a></li>
+        <li><a href="#">一级建造师</a></li>
+        <li><a href="#">创客教育</a></li>
+        <li><a href="#">百科知识</a></li>
+        <li><a href="#">新航道</a></li>
+        <li><a href="#">顺顺留学</a></li>
+        <li><a href="#">国际学校</a></li>
+        <li><a href="#">成人高考</a></li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+    </div>
+    <!--link end--> 
+    <!--分割线 start-->
+    <div class="w-main m-auto">
+        <div class="w-main fl hg-12"></div>
+        <div class="w-main fl hg-1 bg-c-d2d2d2"></div>
+        <div class="w-main fl hg-24"></div>
+    </div>
+    <!--分割线 start-->
+    <div class="w-main m-auto m-b-23 ovhidden">
+        <div class="m-t-12 fl"> <a href="index.html" class="m-t-25 fl"><img src="pics/shangke1.PNG" width="235" height="70" alt=""/></a>
+            <div class="qlfooter_nav m-l-45 fl">
+                <dl class="ql_f_nav fl">
+                    <dt><a href="#">关于我们</a></dt>
+                    <dd><a href="#"><i></i>齐峰介绍</a></dd>
+                    <dd><a href="#"><i></i>加盟齐峰</a></dd>
+                    <dd><a href="#"><i></i>帮助中心</a></dd>
+                    <dd><a href="#"><i></i>招贤纳士</a></dd>
+                </dl>
+                <dl class="ql_f_nav ql_f_navzp fl">
+                    <dt><a href="#">课程分类</a></dt>
+                    <dd><a href="#"><i></i>小学阶段</a></dd>
+                    <dd><a href="#"><i></i>初中阶段</a></dd>
+                    <dd><a href="#"><i></i>高中阶段</a></dd>
+                    <dd><a href="#"><i></i>家庭教育</a></dd>
+                </dl>
+                <div class="ql_f_infp w-200 m-l-15 fl">
+                    <h3>联系我们</a></h3>
+                    <p><i></i>电话：0531-81768062</p>
+                    <p><i></i>邮箱：qifengedu@yeah.net</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-244 fr">
+            <div class="w-112 m-l-10 fl"> <img src="pics/f_ewm1.gif" width="112" height="112" alt=""/>
+                <p class="w-all fs-12 ftc-000000 text-c line-h25 fl">手机端</p>
+            </div>
+            <div class="w-112 m-l-10 fl"> <img src="pics/f_ewm1.gif" width="112" height="112" alt=""/>
+                <p class="w-all fs-12 ftc-000000 text-c line-h25 fl">手机端</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--web footer copyright start-->
+<div class="w-all w-minw bg-c-cccccc p-t-6 p-b-6 ovhidden">
+    <div class="w-main m-auto text-c fs-12 ftc-414141 line-24"> Copyright 2010-2017     鲁ICP备88888888号-1（济南齐峰教育咨询有限公司） <br/>
+        公司地址：济南市市中区社会组织创新园307（二环南路6086号） </div>
+</div>
+<!--web footer copyright end--> 
+<!--web footer end-->
+</body>
+</html>
